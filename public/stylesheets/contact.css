@@ -1,0 +1,40 @@
+body {
+	font-family: "Lato", sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+	min-height: 100%;
+	width: 100%;
+	background: #0B486B;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-align: center;
+	color: white;
+}
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+#info{
+  text-align: center;
+}
+
+#link{
+  text-align: left;
+}
+
+hr{ 
+  height: 1px;
+  width: 69%; 
+  color: white;
+  background-color: white;
+  border: none;
+}
+.container{
+  padding-top: 4%;
+}
+#mail, #linkedin, #web{
+  color: white;
+  
+}

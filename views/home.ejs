@@ -1,0 +1,17 @@
+<%- include("partials/header.js") %>
+<link rel="stylesheet" type="text/css" href="/stylesheets/home.css">
+</head>
+<body>
+	<%- include("partials/nav.ejs") %>
+	<div class="container">	
+		<div class="jumbotron">
+			<h2>A Simple To-Do App</h2>
+			<h6>To make your own List....</h6>
+			<% if(!currentUser){      %>
+				<a href="/login"><button type="button" class="btn btn-outline-primary btn-lg">Log In</button></a><a href="/register"><button 						type="button" class="btn btn-outline-primary btn-lg" href="/signup">Sign Up</button></a>
+			<% }else{ %>
+				<a href="/logout"><button type="button" class="btn btn-outline-primary btn-lg">LogOut!</button></a>
+			<% } %>
+		</div>
+	</div>
+<%- include("partials/footer.js") %>

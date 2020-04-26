@@ -1,0 +1,53 @@
+body{
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+   	min-height: 100%;
+   	width: 100%;
+
+}
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+form{
+	color: black;
+}
+
+#formpart{
+	background-color: white;
+	/*margin: 40px 40px 20px 40px;*/
+	padding-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	width: 60%;
+	height: 80%;
+
+
+}
+#logincontain{
+	align-items: center;
+	padding: 20px 0;
+	margin: 20px 0;
+	width: 50%;
+	border-width: 10px;
+	border-radius: 20px; 
+	border-color: black;
+}
+button{
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.btn .btn-outline-info{
+	font-size: 50px;
+	color: black;
+	background-color: black;
+}

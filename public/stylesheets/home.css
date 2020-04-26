@@ -1,0 +1,39 @@
+body {
+  font-family: "Lato", sans-serif;
+  background: url(homebg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.container{
+  text-align: center;
+}
+/*i.fas.fa-list-alt{
+  font-size: 25rem;
+  margin-top: 15%;
+  margin-right: auto;
+  margin-left: auto;
+}
+  */
+.jumbotron{
+  background: none;
+  border-width: 5px;
+  border-color: black;
+  margin-top: 30%;
+  
+}
+h2{
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+h6{
+  font-weight: bold;
+  margin: 5px auto;
+  padding-bottom: 50px;
+}
+button{
+  margin: 20px 40px 40px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
