@@ -6,7 +6,7 @@ var express               = require("express"),
     User                  = require("./models/user"),
     LocalStrategy         = require("passport-local"),
     passportLocalMongoose = require("passport-local-mongoose")
-// const MongoClient = require('mongodb').MongoClient;
+
 
 var app = express();
 app.set('view engine', 'ejs');
@@ -14,7 +14,7 @@ var router = express.Router();
 var path = __dirname + '/views/';
 var port = process.env.PORT || 3000;
 app.use(express.static("public"));   
-// const connectionString = 'mongodb+srv://DhruvWasTaken:#Dhruv12345@cluster0-kmhqk.mongodb.net/test?retryWrites=true&w=majority'
+
 
 mongoose.connect('mongodb+srv://dhruvanand:dhruvanand@cluster0-kmhqk.mongodb.net/test?retryWrites=true&w=majority', {
 	useNewUrlParser: true,
